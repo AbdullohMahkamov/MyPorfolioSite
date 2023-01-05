@@ -1,0 +1,61 @@
+.projects__nav__body {
+  text-align: center;
+  background-image: url("../../../public/Dots.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  .projects__nav__body--title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 136%;
+    color: #000000;
+    margin-top: 60px;
+  }
+  .projects__nav__body--span {
+    background: linear-gradient(180deg, #a6bcfa 0%, #2157f2 100%);
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    margin: 10px auto 0;
+    transition: 0.5s cubic-bezier(0, 0, 1, 1);
+    &:hover {
+      width: 780px;
+      border-radius: 50px;
+    }
+  }
+  .projects__nav__body--list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 0 60px 0;
+    .projects__nav__body--item {
+      cursor: pointer;
+      align-items: center;
+      background: #f8faff;
+      width: 160px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 136%;
+      color: rgb(0, 0, 0);
+      background: none;
+      border-radius: 10px;
+      transition: background-color 0.4s, box-shadow 0.4s, color 0.4s;
+
+      &.blue {
+        box-shadow: inset 0 0 1em #a6bcfa, 0 0 1em #a6bcfa;
+        border: #a6bcfa solid 2px;
+      }
+
+      &.blue:hover {
+        background-color: #a6bcfa;
+        box-shadow: inset 0 0 0 #a6bcfa, 0 0 1.5em #a6bcfa;
+        color: #fff;
+      }
+    }
+  }
+}

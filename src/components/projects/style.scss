@@ -1,0 +1,78 @@
+.projects__card {
+  width: 270px;
+  height: 400px;
+}
+
+.projects__card--img {
+  width: 270px;
+  height: 250px;
+  border-radius: 26px 26px 0 0;
+}
+.projects__card--box {
+  text-align: center;
+  padding: 0 15px 15px 15px;
+  background: #f9f9fc;
+  border-radius: 0px 0px 26px 26px;
+  box-shadow: 9px 11px 15px -15px rgba(0, 0, 0, 1);
+
+  button {
+    position: relative;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    background: #a6bcfa;
+    margin-top: 15px;
+  }
+
+  button::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(144deg, #00bfff, #00beed 50%, #3cbcd0);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+  }
+
+  button:hover::before {
+    transform: none;
+  }
+
+  button span {
+    display: inline-block;
+    padding: 10px 50px;
+    transition: transform 0.5s;
+  }
+
+  button:hover span {
+    transform: translateX(100%);
+  }
+}
+.projects__card--box--title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2157f2;
+  padding-top: 20px;
+}
+.projects__card--box--span {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #3a62d1b7;
+}

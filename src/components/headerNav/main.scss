@@ -1,0 +1,19 @@
+.header__nav--list {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+.header__nav--link {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  color: #393939;
+}
+
+.header__logo--img {
+  width: 80px;
+  height: 80px;
+}
+

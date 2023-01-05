@@ -1,0 +1,17 @@
+.header {
+  background-image: url("../../../public/Rectangle.jpg");
+  background-size: 40%;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.header__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+  column-gap: 100px;
+}

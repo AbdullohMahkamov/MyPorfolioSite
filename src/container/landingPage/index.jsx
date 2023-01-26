@@ -14,7 +14,7 @@ const LandingPage = () => {
   return (
     <div className="landing__page">
       <HeroMain />
-      <ProjectsNav />
+      <ProjectsNav n/>
       <div className="container">
         <div className="projects__cards">
           {projectsData.map((item) => {

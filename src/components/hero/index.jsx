@@ -27,10 +27,22 @@ export default function HeroMain() {
               </p>
               <div className="hero__content--desk--btns">
                 <button className="hero__content--desk--btns--projects">
-                  See Projects <i className="bx bx-right-arrow-alt"></i>
+                  <a
+                    href="#projects"
+                    style={{
+                      textDecoration: "none",
+                      color: "#fff",
+                      display: "flex",
+                    }}
+                  >
+                    See Projects <i className="bx bx-right-arrow-alt"></i>
+                  </a>
                 </button>
 
-                <a className="hero__content--desk--btns--link" href="https://drive.google.com/file/d/1Ga9s-W_EGJ6jyyZbpnRm866sX6Fog7H0/view">
+                <a
+                  className="hero__content--desk--btns--link"
+                  href="https://drive.google.com/file/d/1Ga9s-W_EGJ6jyyZbpnRm866sX6Fog7H0/view"
+                >
                   <button className="hero__content--desk--btns--CV">
                     Download Resume
                   </button>

@@ -5,25 +5,25 @@ const projectsData = [
       "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6384496fc5e11b08c466a565/screenshot_2022-11-28-05-39-04-0000.png",
     title: "Online book travel",
     adress: "https://book-for-tour-and-trips.netlify.app",
-    techs: "HTML5, CSS3, JS, React, Redux",
+    techs: "HTML5, CSS3, JS, React, Redux"
   },
   {
     id: 2,
+    image:
+      "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/63d25ba610fe9000087fa259/screenshot_2023-01-26-10-53-39-0000.png",
+    title: "React + Js project ",
+    adress: "https://preeminent-starburst-38e444.netlify.app/",
+    techs: "HTML5, CSS3, JS, React",
+  }, 
+  {
+    id: 3,
     image:
       "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/637326975cff1977e4e8b572/screenshot_2022-11-15-05-42-37-0000.png",
     title: "Counter ",
     adress: "https://parfolio-count.netlify.app/",
     techs: "HTML5, CSS3, JS, React",
   },
-
-  {
-    id: 3,
-    image:
-      "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62e2c1974568060068c47895/screenshot_2022-07-28-17-05-43-0000.png",
-    title: "Coffee Roaster",
-    adress: "https://coffeeroasters-mahkamov.netlify.app/",
-    techs: "HTML5, CSS3",
-  },
+  
   {
     id: 4,
     image:
@@ -87,6 +87,14 @@ const projectsData = [
       "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62d980735a48160094e2948a/screenshot_2022-07-21-16-36-11-0000.png",
     title: "myFirst Project",
     adress: "https://first-exam-abdulloh-mahkamov.netlify.app/",
+    techs: "HTML5, CSS3",
+  },
+  {
+    id: 11,
+    image:
+      "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62e2c1974568060068c47895/screenshot_2022-07-28-17-05-43-0000.png",
+    title: "Coffee Roaster",
+    adress: "https://coffeeroasters-mahkamov.netlify.app/",
     techs: "HTML5, CSS3",
   },
 ];

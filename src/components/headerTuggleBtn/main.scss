@@ -1,7 +1,12 @@
 .header__tuggleBtn--Lightbtn {
   cursor: pointer;
+  position: relative;
 }
 .bx-moon {
+  font-size: 35px;
+  
+}
+.bxs-moon {
   font-size: 35px;
 }
 .light {
@@ -18,4 +23,5 @@
 }
 
 .hidden {
+  opacity: 0;
 }

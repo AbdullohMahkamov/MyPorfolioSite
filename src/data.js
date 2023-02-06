@@ -2,10 +2,18 @@ const projectsData = [
   {
     id: 1,
     image:
+      "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/63e0acded820f61be134e224/screenshot_2023-02-06-07-31-47-0000.png",
+    title: "PartTube prototype",
+    adress: "https://part-tube.netlify.app/",
+    techs: "HTML5, CSS3, JS, React, MUI, UUID",
+  },
+  {
+    id: 1,
+    image:
       "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6384496fc5e11b08c466a565/screenshot_2022-11-28-05-39-04-0000.png",
     title: "Online book travel",
     adress: "https://book-for-tour-and-trips.netlify.app",
-    techs: "HTML5, CSS3, JS, React, Redux"
+    techs: "HTML5, CSS3, JS, React, Redux",
   },
   {
     id: 2,
@@ -14,7 +22,7 @@ const projectsData = [
     title: "React + Js project ",
     adress: "https://preeminent-starburst-38e444.netlify.app/",
     techs: "HTML5, CSS3, JS, React",
-  }, 
+  },
   {
     id: 3,
     image:
@@ -23,15 +31,7 @@ const projectsData = [
     adress: "https://parfolio-count.netlify.app/",
     techs: "HTML5, CSS3, JS, React",
   },
-  
-  {
-    id: 4,
-    image:
-      "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62e7c608c322be4914055d68/screenshot_2022-08-01-12-24-48-0000.png",
-    title: "Clarsky",
-    adress: "https://clarsky-byfigma.netlify.app/",
-    techs: "HTML5, CSS3",
-  },
+
   {
     id: 5,
     image:
@@ -74,7 +74,7 @@ const projectsData = [
   },
 
   {
-    id: 11,
+    id: 10,
     title: "Polar",
     image:
       "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62d6fc87b60af20428da4770/screenshot_2022-07-19-18-48-46-0000.png",
@@ -82,7 +82,7 @@ const projectsData = [
     techs: "HTML5, CSS3",
   },
   {
-    id: 10,
+    id: 11,
     image:
       "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62d980735a48160094e2948a/screenshot_2022-07-21-16-36-11-0000.png",
     title: "myFirst Project",
@@ -90,11 +90,19 @@ const projectsData = [
     techs: "HTML5, CSS3",
   },
   {
-    id: 11,
+    id: 12,
     image:
       "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62e2c1974568060068c47895/screenshot_2022-07-28-17-05-43-0000.png",
     title: "Coffee Roaster",
     adress: "https://coffeeroasters-mahkamov.netlify.app/",
+    techs: "HTML5, CSS3",
+  },
+  {
+    id: 13,
+    image:
+      "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62e7c608c322be4914055d68/screenshot_2022-08-01-12-24-48-0000.png",
+    title: "Clarsky",
+    adress: "https://clarsky-byfigma.netlify.app/",
     techs: "HTML5, CSS3",
   },
 ];
